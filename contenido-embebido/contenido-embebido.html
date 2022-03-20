@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contenido embebido</title>
+    <style>
+        img{
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- <h1>Contenido embebido</h1>
+    <img srcset="
+    assets/images/hiro.webp,
+    assets/images/hiro.jpg,
+    assets/images/face.svg 3x
+    " alt=""> -->
+
+    <picture>
+        <source srcset="
+        assets/images/icono.webp" media="(min-width:1200px)">
+        <img src="assets/images/hiro.jpg" alt="">
+    </picture>
+</body>
+</html>
